@@ -1,5 +1,5 @@
 {
-    "name": "Meeting tracker",
+    "name": "Son7211 tracker",
 
     // Use 'forwardPorts' to create a container with published ports.
     "forwardPorts": [3000],
