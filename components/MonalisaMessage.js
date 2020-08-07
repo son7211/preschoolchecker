@@ -9,12 +9,12 @@ const getData = async (string) => {
   return response.text();
 };
 
-const getMonaMessage = ({ who, meetingTitle, meetingDate, meetingTime }) => {
+const getMonaMessage = ({ who, eetingTime }) => {
   const ms = Math.abs(new Date(`${meetingDate}T${meetingTime}`) - Date.now());
   const minutesToGo = Math.floor(ms / 60000);
 
   const when = minutesToGo > 59 ? `${Math.floor(minutesToGo / 60)} hours` : `${minutesToGo} minutes`
-  return `${who} has a meeting called ${meetingTitle} coming up in ${when}`
+  return `${who} has a meeting called  coming up in ${when}`
 };
 
 class MonalisaMessage extends React.Component {
