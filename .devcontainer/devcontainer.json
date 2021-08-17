@@ -13,6 +13,7 @@
     // Add the IDs of VS Code extensions you want installed when the container is created in the array below.
     "extensions": [
         "dbaeumer.vscode-eslint",
-        "esbenp.prettier-vscode"
+        "esbenp.prettier-vscode",
+        "CodeQL"
     ]
 }
